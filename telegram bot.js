@@ -1,13 +1,9 @@
 const TelegramBot = require("node-telegram-bot-api");
 const Stripe = require("stripe");
 
-// ============================================================
-// CONFIG — fill these in before running
-// ============================================================
-const TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-const STRIPE_SECRET_KEY = "YOUR_STRIPE_SECRET_KEY";
-const YOUR_DOMAIN = "https://your-domain.com"; // or your Railway URL
-// ============================================================
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
+const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY;
+const YOUR_DOMAIN = process.env.YOUR_DOMAIN;
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 const stripe = new Stripe(STRIPE_SECRET_KEY);
