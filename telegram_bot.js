@@ -47,8 +47,6 @@ bot.onText(/\/start/, (msg) => {
     "🚨MENU AVAILABLE 2026💦
 🚨ALL PRICES IN USD 💰
 
-💵 PAYMENT OPTIONS 💵
-
 💪SPECIAL💪
 1TB ALL FOLDERS $100 ✅
 
