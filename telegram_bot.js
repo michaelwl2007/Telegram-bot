@@ -44,7 +44,7 @@ function buildMenu() {
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(
     msg.chat.id,
-    "hello",
+    "🚨MENU AVAILABLE 2026💦/n🚨ALL PRICES IN USD 💰\n\n💪SPECIAL💪\n1TB ALL FOLDERS $100 ✅\n\n1➡️ ALL TEENS COLLECTION 11-17 ✅ $50\n2➡️  NEW TEENS 11 - 17 ✅ $20\n3➡️  MIX TEENS 11-17 ✅ $20\n4➡️  WHITE TEENS 11-17 ✅ $20\n5➡️  BLACK TEENS 11-17 ✅ $20\n\n6➡️  ALL CP COLLECTION ✅ $50\n7➡️  NEW CP ✅ $30\n8➡️  MOM AND SON CP ✅ $20\n9➡️  FATHER AND DAUGHTER CP ✅ $20\n10➡️  GAY CP ✅ $20\n\n11➡️  ALL ONLINE COLLECTION ✅ $30\n12➡️  SNAPGOD FULL ✅ $20\n13➡️  ANXIOUS PANDA FULL ✅ $20\n\n14➡️  RAPE✅ $30\n\n🔥AND MORE FOLDERS... ",
     { reply_markup: buildMenu() }
   );
 });
