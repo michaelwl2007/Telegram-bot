@@ -48,8 +48,6 @@ bot.onText(/\/start/, (msg) => {
 🚨ALL PRICES IN USD 💰
 
 💵 PAYMENT OPTIONS 💵
-CRYPTO 💸
-GIFTCARD 🎁
 
 💪SPECIAL💪
 1TB ALL FOLDERS $100 ✅
